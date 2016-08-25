@@ -11,6 +11,15 @@
         "php": ">=5.5",
         "zendframework/zendframework": "~2.5"
     },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.0-dev",
+            "dev-develop": "0.1.0-dev"
+        },
+        "zf": {
+            "module": "Gpsa\\Zf2SrvLocatorFix"
+        }
+    },
     "autoload": {
         "psr-4": {
             "Gpsa\\Zf2SrvLocatorFix\\": "src/"
